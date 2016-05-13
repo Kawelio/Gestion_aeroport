@@ -45,6 +45,14 @@ public class Aeroport {
             System.out.println(heliport.get(i));
         }
     }
+    
+    public int SizeParking(){
+        return parking.size();
+    }
+    
+    public int SizeHeliport(){
+        return heliport.size();
+    }
    
     @Override
     public String toString(){
