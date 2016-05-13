@@ -82,7 +82,7 @@ public class Monde {
         }
     }
     
-    public void AddAeronef(){
+    public void addAeronef(){
         System.out.println("Veuillez saisir l'index de l'aéroport :");
         int scaeo = new Scanner(System.in).nextInt();
         scaeo = scaeo - 1;
@@ -136,7 +136,7 @@ public class Monde {
         }
     }
     
-    public void DeleteAeronef(){
+    public void deleteAeronef(){
         
     }
 }

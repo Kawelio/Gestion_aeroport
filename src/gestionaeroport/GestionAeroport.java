@@ -32,7 +32,7 @@ public class GestionAeroport {
                     world.afficherEtatMonde();
                     break;
                 case 3:
-                    world.AddAeronef();
+                    world.addAeronef();
                     break;
                 case 4:
                     //world.fairePleinCarburant();
